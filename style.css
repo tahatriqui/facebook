@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica,sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20vh;
+    align-items: center;
+}
+img{
+   width: 300px;
+}
+body{
+    background-color: #f1f1f1;
+}
+.left-side{
+    margin-left: 100px;
+    
+}
+.left-side p{
+    font-size: 27px;
+    width:520px;
+    margin-left:20px;
+    margin-top: 5px;
+    margin-bottom:40px;
+    line-height: 1.2;
+}
+.right-side form{
+    width: 400px;
+     height: 350px;
+   background-color: white;
+   margin-right: 100px;
+   border-radius: 10px;
+}
+input{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(193, 190, 190);
+}
+input::placeholder {
+    padding-left: 10px;
+    font-size: 16px;
+    font-style:  oblique;
+    color: #c6c1c1;
+}
+.btn1{
+    margin-top: 15px;
+    background-color: #1877f2;
+    margin-left: 15px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+hr{
+    width: 90%;
+    margin-left: 5%;
+    background-color:#e3e2e2 ;
+    border: none;
+    height: 1px;
+}
+.btn2{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    height: 50px;
+    background-color: #42b72a;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.right-side p{
+    margin-top: 30px;
+    font-size: 14px;
+    margin-left: 50px;
+}
+span{
+    font-weight: bold;
+    cursor: pointer;
+}
+span:hover{
+    text-decoration: underline;
+}
+@media (max-width:500px){
+    .container{
+        display:inline
+    }
+    .left-side p{
+        font-size: 24px;
+        width:350px;
+        margin-left:-15px;
+        margin-top: 5px;
+        margin-bottom:30px;
+        
+    }
+    .right-side form{ 
+    margin-left: 40px;
+    }
+}
